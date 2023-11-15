@@ -1,7 +1,8 @@
 Angular 17 + esbuild + Stencil + ng serve issue
 
 - Run `npm --prefix ./esbuild-test install && npm --prefix ./test-compo install`
-- Run `npm --prefix ./test-compo link`
+- In `test-compo`, run `npm run build`
+- In `test-compo`, run `npm link`
 - In `esbuild-test`, run `npm link test-compo`
 - In `esbuild-test`, run `npm run start`
 
